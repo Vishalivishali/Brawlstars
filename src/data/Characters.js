@@ -1,0 +1,47 @@
+const Characters = [{
+	name: 'Niko',
+	powerPoints: 20,
+	coins: 31,
+	trophies: 10,
+	powerLevel: 23,
+	rank: 1,
+	rarity: 'Rare',
+},
+{
+	name: 'Shelly',
+	powerPoints: 22,
+	coins: 30,
+	trophies: 20,
+	powerLevel: 24,
+	rank: 2,
+	rarity: 'SuperRare',
+},
+{
+	name: 'Colt',
+	powerPoints: 26,
+	coins: 35,
+	trophies: 30,
+	powerLevel: 28,
+	rank: 3,
+	rarity: 'Legendary',
+},
+{
+	name: 'Elprimo',
+	powerPoints: 24,
+	coins: 38,
+	trophies: 40,
+	powerLevel: 29,
+	rank: 4,
+	rarity: 'Mythic',
+},
+{
+	name: 'Poco',
+	powerPoints: 29,
+	coins: 37,
+	trophies: 50,
+	powerLevel: 30,
+	rank: 5,
+	rarity: 'Epic',
+}];
+
+export default Characters;
