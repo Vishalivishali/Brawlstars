@@ -16,6 +16,25 @@ const config = {
 		'ByRarityDescending',
 		'ClosestRank',
 	],
+	rankTrophies: {
+		1: 0,
+		2: 10,
+		3: 20,
+		4: 30,
+		5: 40,
+		6: 60,
+		7: 80,
+		8: 100,
+		9: 120,
+		10: 140,
+		11: 160,
+		12: 180,
+		13: 220,
+		14: 260,
+		15: 300,
+		16: 340,
+		17: 380,
+	},
 };
 
 export default config;

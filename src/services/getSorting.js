@@ -22,12 +22,17 @@ const getByRarity = ({ state: { brawlers }}) =>
 const getByRarityDescending = ({ state: { brawlers }}) =>
 	brawlers.sort((a, b) => Rarity[b.rarity] - Rarity[a.rarity]);
 
+const getClosestRank = ({ state: { brawlers }, config: { rankTrophies }}) =>
+	brawlers.sort((a, b) => (rankTrophies[a.rank] - a.trophies)
+	- (rankTrophies[b.rank] - b.trophies));
+
 const getSorting = {
 	getMostTrophies,
 	getLeastTrophies,
 	getPowerLevel,
 	getByRarity,
 	getByRarityDescending,
+	getClosestRank,
 };
 
 export default getSorting;

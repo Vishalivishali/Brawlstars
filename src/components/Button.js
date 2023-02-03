@@ -8,6 +8,7 @@ const types = {
 	PowerLevel: (context) => getSorting.getPowerLevel(context),
 	ByRarity: (context) => getSorting.getByRarity(context),
 	ByRarityDescending: (context) => getSorting.getByRarityDescending(context),
+	ClosestRank: (context) => getSorting.getClosestRank(context),
 };
 const Buttons = (context) => {
 	const { state, setState,
