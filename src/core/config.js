@@ -1,27 +1,27 @@
 const config = {
 	characters: [{
-		name: 'Nita',
-		img: 'URL',
+		name: 'Niko',
+		img: '/images/niko.jpeg',
 		rarity: 'Rare',
 	},
 	{
 		name: 'Shelly',
-		img: 'URL',
+		img: '/images/shelly.jpeg',
 		rarity: 'SuperRare',
 	},
 	{
 		name: 'Colt',
-		img: 'URL',
+		img: '/images/colt.jpeg',
 		rarity: 'Legendary',
 	},
 	{
 		name: 'Elprimo',
-		img: 'URL',
+		img: '/images/Elprimo.jpeg',
 		rarity: 'Mythic',
 	},
 	{
 		name: 'Poco',
-		img: 'URL',
+		img: '/images/poco.jpeg',
 		rarity: 'Epic',
 	}],
 	headings: [
@@ -32,6 +32,7 @@ const config = {
 		'trophies',
 		'powerLevel',
 		'rarity',
+		'img',
 	],
 	sorting: [
 		'LeastTrophies',
