@@ -1,10 +1,9 @@
 import React from 'react';
-import Characters from '../data/Characters';
 import tableHeader from './TableHeader';
 import TableBody from './TableBody';
 
 const Brawlers = (context) => {
-	const { config: { headings }} = context;
+	const { config: { headings }, state: { characters }} = context;
 
 	return <div>
 		<h1 className="titleStyle">BrawlersList</h1>
@@ -15,10 +14,10 @@ const Brawlers = (context) => {
 			</tr>
 		</thead>
 		<tbody>
-			{Characters
-				.map((brawlers, key) =>
+			{characters
+				.map((character, key) =>
 					TableBody({ ...context,
-						data: { brawlers, key, headings }}))}
+						data: { character, key, headings }}))}
 		</tbody>
 	</div>;
 };

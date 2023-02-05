@@ -7,23 +7,23 @@ const Rarity = {
 	Rare: 1,
 };
 
-const getMostTrophies = ({ state: { brawlers }}) =>
-	brawlers.sort((a, b) => b.trophies - a.trophies);
+const getMostTrophies = ({ state: { characters }}) =>
+	characters.sort((a, b) => b.trophies - a.trophies);
 
-const getLeastTrophies = ({ state: { brawlers }}) =>
-	brawlers.sort((a, b) => a.trophies - b.trophies);
+const getLeastTrophies = ({ state: { characters }}) =>
+	characters.sort((a, b) => a.trophies - b.trophies);
 
-const getPowerLevel = ({ state: { brawlers }}) =>
-	brawlers.sort((a, b) => a.powerLevel - b.powerLevel);
+const getPowerLevel = ({ state: { characters }}) =>
+	characters.sort((a, b) => a.powerLevel - b.powerLevel);
 
-const getByRarity = ({ state: { brawlers }}) =>
-	brawlers.sort((a, b) => Rarity[a.rarity] - Rarity[b.rarity]);
+const getByRarity = ({ state: { characters }}) =>
+	characters.sort((a, b) => Rarity[b.rarity] - Rarity[a.rarity]);
 
-const getByRarityDescending = ({ state: { brawlers }}) =>
-	brawlers.sort((a, b) => Rarity[b.rarity] - Rarity[a.rarity]);
+const getByRarityDescending = ({ state: { characters }}) =>
+	characters.sort((a, b) => Rarity[a.rarity] - Rarity[b.rarity]);
 
-const getClosestRank = ({ state: { brawlers }, config: { rankTrophies }}) =>
-	brawlers.sort((a, b) => (rankTrophies[a.rank] - a.trophies)
+const getClosestRank = ({ state: { characters }, config: { rankTrophies }}) =>
+	characters.sort((a, b) => (rankTrophies[a.rank] - a.trophies)
 	- (rankTrophies[b.rank] - b.trophies));
 
 const getSorting = {

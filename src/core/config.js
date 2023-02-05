@@ -1,11 +1,36 @@
 const config = {
+	characters: [{
+		name: 'Nita',
+		img: 'URL',
+		rarity: 'Rare',
+	},
+	{
+		name: 'Shelly',
+		img: 'URL',
+		rarity: 'SuperRare',
+	},
+	{
+		name: 'Colt',
+		img: 'URL',
+		rarity: 'Legendary',
+	},
+	{
+		name: 'Elprimo',
+		img: 'URL',
+		rarity: 'Mythic',
+	},
+	{
+		name: 'Poco',
+		img: 'URL',
+		rarity: 'Epic',
+	}],
 	headings: [
 		'name',
 		'powerPoints',
+		'rank',
 		'coins',
 		'trophies',
 		'powerLevel',
-		'rank',
 		'rarity',
 	],
 	sorting: [
