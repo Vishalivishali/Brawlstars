@@ -14,8 +14,8 @@ const TableBody = (context) => {
 	return <tr key={ key }className="textStyle">
 		{headings.map((header, index) =>
 			<td key={ index } className="textStyle">
-				{character[header] === character.img
-					? imageFunction(character.img)
+				{character[header] === character.image
+					? imageFunction(character.image)
 					: character[header] }
 			</td>)}
 	</tr>;

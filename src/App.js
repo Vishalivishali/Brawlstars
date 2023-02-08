@@ -3,13 +3,12 @@ import { rndBetween } from '@laufire/utils/lib';
 import { React, useState } from 'react';
 import './App.scss';
 
-import Brawlers from './components/Brawlers';
-import Buttons from './components/Button';
+import Brawlstars from './components/Brawlstars';
 
 const brawlers = ({ config: { characters }}) =>
 	characters.map((character) => ({
 		...character,
-		powerPoints: rndBetween(1, 10),
+		powerPoints: rndBetween(1, 100),
 		rank: rndBetween(1, 10),
 		coins: rndBetween(1, 100),
 		trophies: rndBetween(1, 380),
@@ -27,8 +26,7 @@ const App = (context) => {
 	const extendedContext = { ...{ ...context, state, setState }};
 
 	return <div className="App">
-		<Brawlers { ...extendedContext }/>
-		<Buttons { ...extendedContext }/>
+		<Brawlstars { ...extendedContext }/>
 	</div>;
 };
 

@@ -42,22 +42,112 @@
 	position: absolute;
 	top: 0;
 	left: 1050px;
-};;
+};
 
 .box {
 	position: absolute;
 	top: 130px;
 	left: 200px;
-	width: 300px;
-	height: 300px;
-	border: 3px solid black;
+	width: 360px;
+	height: 155px;
+	border: 5px solid black;
 };
 
-.image {
+.rectangle {
 	position: absolute;
-	top: 130px;
-	left: 200px;
+	top: 250px;
+	left: -5px;
+	height: 50px;
 	width: 300px;
-	height: 300px;
+	background-color: green;
+	border: 5px solid black;
+};
+
+.powerPoints {
+	position:absolute;
+	top: 10px;
+	left: 35px;
+	border-radius: 50px;
+	border: 1px solid black;
+};
+
+.coins {
+	position:absolute;
+	top: 8px;
+	left: 195px;
+	border-radius: 50px;
+	border: 2px solid black;
 }
+
+.add {
+	position: absolute;
+	top: 0px;
+	left: 145px;
+	color: white;
+	font-size: 40px;
+}
+
+.powerPoint {
+	position:absolute;
+	top: 10px;
+	left: 85px;
+	font-size: 25px;
+	color: white;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+};
+
+.coin {
+	position:absolute;
+	top: 10px;
+	left: 250px;
+	font-size: 25px;
+	color: white;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+// .name {
+// 	position: absolute;
+// 	top: 360px;
+// 	left: 210px;
+// 	font-size:40px;
+// 	color: white;
+// 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000,
+// };
+
+// .power {
+// 	position: absolute;
+// 	top: 370px;
+// 	left: 423px;
+// 	font-size:30px;
+// 	color: white;
+// 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000,
+// };
+
+// .powerLevel {
+// 	position: absolute;
+// 	top: 370px;
+// 	left: 530px;
+// 	height: 33px;
+// 	width: 33px;
+// 	font-size: 30px;
+// 	color: white;
+// 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+// 	background-color: black;
+// };
+
+// .rectangle {
+//   position: absolute;
+// 	top: 400px;
+// 	left: 203px;
+// 	height: 49px;
+// 	width: 356px;
+// 	font-size: 30px;
+// 	justify-content: space-around;
+// 	color: white;
+// 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+// 	background-color: rgb(71, 66, 66);
+// 	white-space: nowrap;
+// 	border: 2px solid black;
+// }
+
 };

@@ -1,27 +1,27 @@
 const config = {
 	characters: [{
 		name: 'Niko',
-		img: '/images/niko.jpeg',
+		image: '/images/tara.jpeg',
 		rarity: 'Rare',
 	},
 	{
 		name: 'Shelly',
-		img: '/images/shelly.jpeg',
+		image: '/images/shelly.jpeg',
 		rarity: 'SuperRare',
 	},
 	{
 		name: 'Colt',
-		img: '/images/colt.jpeg',
+		image: '/images/colt.jpeg',
 		rarity: 'Legendary',
 	},
 	{
 		name: 'Elprimo',
-		img: '/images/Elprimo.jpeg',
+		image: '/images/Elprimo.jpeg',
 		rarity: 'Mythic',
 	},
 	{
 		name: 'Poco',
-		img: '/images/poco.jpeg',
+		image: '/images/poco.jpeg',
 		rarity: 'Epic',
 	}],
 	headings: [
