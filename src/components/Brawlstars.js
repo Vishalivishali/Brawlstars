@@ -1,12 +1,12 @@
 import React from 'react';
-import BrawlersList from './BrawlersList';
+import Box from './Box';
 
 const Brawlstars = (context) => {
 	const { state: { characters }} = context;
 
 	return characters.map((character, key) =>
 
-		<BrawlersList
+		<Box
 			key={ key }
 			{ ...{ ...context,
 				data: { character, key }} }

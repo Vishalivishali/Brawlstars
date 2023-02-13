@@ -1,26 +1,26 @@
 const config = {
 	characters: [{
-		name: 'Niko',
+		name: 'TARA',
 		image: '/images/tara.jpeg',
 		rarity: 'Rare',
 	},
 	{
-		name: 'Shelly',
+		name: 'SHELLY',
 		image: '/images/shelly.jpeg',
 		rarity: 'SuperRare',
 	},
 	{
-		name: 'Colt',
+		name: 'COLT',
 		image: '/images/colt.jpeg',
 		rarity: 'Legendary',
 	},
 	{
-		name: 'Elprimo',
-		image: '/images/Elprimo.jpeg',
+		name: 'BO',
+		image: '/images/bo.jpeg',
 		rarity: 'Mythic',
 	},
 	{
-		name: 'Poco',
+		name: 'POCO',
 		image: '/images/poco.jpeg',
 		rarity: 'Epic',
 	}],

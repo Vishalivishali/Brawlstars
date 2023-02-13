@@ -1,5 +1,10 @@
+/* eslint-disable max-lines-per-function */
 /* eslint-disable no-magic-numbers */
 import React from 'react';
+import PowerLevel from './PowerLevel';
+import Name from './Name';
+import Rank from './Rank';
+import Trophies from './Trophies';
 import Rectangle from './Rectangle';
 
 const BoxMultiplier = 350;
@@ -23,6 +28,10 @@ const Box = (context) => {
 				width="300px"
 				height="250px"
 			/>
+			<Name { ...context }/>
+			<PowerLevel { ...context }/>
+			<Rank { ...context }/>
+			<Trophies { ...context }/>
 			<Rectangle { ...context }/>
 		</div>);
 };

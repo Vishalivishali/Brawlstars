@@ -3,7 +3,7 @@ import { rndBetween } from '@laufire/utils/lib';
 import { React, useState } from 'react';
 import './App.scss';
 
-import Brawlstars from './components/Brawlstars';
+import FullScreen from './components/FullScreen';
 
 const brawlers = ({ config: { characters }}) =>
 	characters.map((character) => ({
@@ -26,7 +26,7 @@ const App = (context) => {
 	const extendedContext = { ...{ ...context, state, setState }};
 
 	return <div className="App">
-		<Brawlstars { ...extendedContext }/>
+		<FullScreen { ...extendedContext }/>
 	</div>;
 };
 
