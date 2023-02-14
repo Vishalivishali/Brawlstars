@@ -27,7 +27,8 @@ const Box = (context) => {
 			<Rank { ...context }/>
 			<Trophies { ...context }/>
 			<Rectangle { ...context }/>
-		</div>);
+		</div>
+	);
 };
 
 export default Box;

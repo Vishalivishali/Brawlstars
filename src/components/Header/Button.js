@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 /* eslint-disable no-magic-numbers */
 import React from 'react';
-import getSorting from '../services/getSorting';
+import getSorting from '../../services/getSorting';
 
 const types = {
 	'Most Trophies': (context) => getSorting.getMostTrophies(context),

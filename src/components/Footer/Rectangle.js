@@ -9,7 +9,6 @@ const Rectangle = (context) =>
 		<PowerPoints { ...context }/>
 		<label className="add"> + </label>
 		<Coins { ...context }/>
-
 	</div>;
 
 export default Rectangle;

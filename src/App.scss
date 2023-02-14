@@ -1,7 +1,8 @@
 .App {
 	text-align: center;
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	background-image: url(https://i.redd.it/rmmz9vnwvd031.jpg) ;
 	height: 120vh;
 	width: 103vw;
@@ -47,9 +48,8 @@
 };
 
 .buttons {
-	position: absolute;
-	top: 11px;
-	left: 1050px;
+	margin-left: 642px;
+	margin-top: -20px;
 	height: 40px;
 	width: 300px;
 	font-size: 25px;
@@ -202,18 +202,12 @@
 };
 
 .header {
-	position: absolute;
-	top: 10px;
-	left:705px;
 	font-size: 40px;
 	color: white;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 5px -1px 0 #000, -1px -1px 0 #000;
 };
 
 .headers {
-	position: absolute;
-	top: 10px;
-	left: 926px;
 	font-size: 40px;
 	color: lightseagreen;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 5px -1px 0 #000, -1px -1px 0 #000;

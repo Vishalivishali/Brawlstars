@@ -10,7 +10,8 @@ const Coins = (context) => {
 			alt="fs"
 			height="30px"
 			width="30px"
-		/> <label className="coin">{character.coins}</label>
+		/>
+		<label className="coin">{character.coins}</label>
 	</div>;
 };
 
