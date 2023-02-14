@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 
 const Rarity = {
 	Legendary: 5,
@@ -5,6 +6,14 @@ const Rarity = {
 	Epic: 3,
 	SuperRare: 2,
 	Rare: 1,
+};
+
+const milliSeconds = 1000;
+
+const getUpdatedPowerUp = (context) => {
+	const { setState } = context;
+
+	return setInterval(() => setState((state) => ({ ...state, powerUp: !state.powerUp }), milliSeconds));
 };
 
 const getMostTrophies = ({ state: { characters }}) =>
@@ -27,6 +36,7 @@ const getClosestRank = ({ state: { characters }, config: { rankTrophies }}) =>
 	- (rankTrophies[b.rank] - b.trophies));
 
 const getSorting = {
+	getUpdatedPowerUp,
 	getMostTrophies,
 	getLeastTrophies,
 	getPowerLevel,

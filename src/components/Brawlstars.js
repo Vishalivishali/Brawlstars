@@ -4,13 +4,15 @@ import Box from './Box';
 const Brawlstars = (context) => {
 	const { state: { characters }} = context;
 
-	return characters.map((character, key) =>
+	return <div className="container">
+		{ characters.map((character, key) =>
 
-		<Box
-			key={ key }
-			{ ...{ ...context,
-				data: { character, key }} }
-		/>);
+			<Box
+				key={ key }
+				{ ...{ ...context,
+					data: { character, key }} }
+			/>)}
+	</div>;
 };
 
 export default Brawlstars;

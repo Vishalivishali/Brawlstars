@@ -23,6 +23,11 @@ const config = {
 		name: 'POCO',
 		image: '/images/poco.jpeg',
 		rarity: 'Epic',
+	},
+	{
+		name: 'COLT',
+		image: '/images/colt.jpeg',
+		rarity: 'Legendary',
 	}],
 	headings: [
 		'name',
@@ -35,12 +40,12 @@ const config = {
 		'img',
 	],
 	sorting: [
-		'LeastTrophies',
-		'MostTrophies',
-		'PowerLevel',
-		'ByRarity',
-		'ByRarityDescending',
-		'ClosestRank',
+		'Least Trophies',
+		'Most Trophies',
+		'Power Level',
+		'By Rarity',
+		'By Rarity Descending',
+		'Closest Rank',
 	],
 	rankTrophies: {
 		1: 0,
