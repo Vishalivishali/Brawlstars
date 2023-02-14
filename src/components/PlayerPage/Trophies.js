@@ -4,13 +4,13 @@ const Trophies = ({ data: { character: { trophies }}}) =>
 	<div className="miniBox">
 		<div style={ { width: `${ trophies }px`, height: '23px', backgroundColor: 'darkOrange' } }>
 			<img
-				className="trophiesImage"
+				className="trophyImage"
 				src="images/trophy.png"
 				alt="fs"
 				width="20px"
 				height="20px"
 			/>
-			<label className="trophies">{trophies}</label>
+			<label className="trophyValue">{trophies}</label>
 		</div>
 	</div>;
 

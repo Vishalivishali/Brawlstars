@@ -48,7 +48,7 @@
 };
 
 .buttons {
-	margin-left: 642px;
+	margin-left: 330px;
 	margin-top: -20px;
 	height: 40px;
 	width: 300px;
@@ -87,7 +87,7 @@
 	border: 5px solid black;
 };
 
-.powerPoints {
+.powerPoint {
 	position:absolute;
 	top: 10px;
 	left: 35px;
@@ -95,23 +95,7 @@
 	border: 1px solid black;
 };
 
-.coins {
-	position:absolute;
-	top: 8px;
-	left: 195px;
-	border-radius: 50px;
-	border: 2px solid black;
-}
-
-.add {
-	position: absolute;
-	top: 0px;
-	left: 145px;
-	color: white;
-	font-size: 40px;
-}
-
-.powerPoint {
+.powerPointValue {
 	position:absolute;
 	top: 10px;
 	left: 85px;
@@ -120,14 +104,30 @@
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
 };
 
+.add {
+	position: absolute;
+	top: 0px;
+	left: 145px;
+	color: white;
+	font-size: 40px;
+};
+
 .coin {
+	position:absolute;
+	top: 8px;
+	left: 195px;
+	border-radius: 50px;
+	border: 2px solid black;
+};
+
+.coinValue {
 	position:absolute;
 	top: 10px;
 	left: 250px;
 	font-size: 25px;
 	color: white;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
-}
+};
 
 .name {
 	position: absolute;
@@ -147,7 +147,7 @@
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000,
 };
 
-.powerLevels {
+.powerLevel {
 	position: absolute;
 	top: 217px;
 	left: 267px;
@@ -171,13 +171,13 @@
 	left: -2px;
 };
 
-.trophiesImage {
+.trophyImage {
 	position:absolute;
 	top: 1px;
 	left: 76px;
 };
 
-.trophies {
+.trophyValue {
 	position:absolute;
 	top: -4px;
 	left: 101px;
@@ -202,12 +202,14 @@
 };
 
 .header {
+	margin-left: -300px;
 	font-size: 40px;
 	color: white;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 5px -1px 0 #000, -1px -1px 0 #000;
 };
 
-.headers {
+.headerValue {
+	margin-left: 13px;
 	font-size: 40px;
 	color: lightseagreen;
 	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 5px -1px 0 #000, -1px -1px 0 #000;
@@ -223,5 +225,5 @@
 	position: absolute;
 	top: 214px;
 	left: 120px;
-}
+};
 

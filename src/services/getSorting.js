@@ -10,7 +10,7 @@ const Rarity = {
 
 const milliSeconds = 1000;
 
-const getUpdatedPowerUp = (context) => {
+const getPowerUp = (context) => {
 	const { setState } = context;
 
 	return setInterval(() => setState((state) => ({ ...state, powerUp: !state.powerUp }), milliSeconds));
@@ -36,7 +36,7 @@ const getClosestRank = ({ state: { characters }, config: { rankTrophies }}) =>
 	- (rankTrophies[b.rank] - b.trophies));
 
 const getSorting = {
-	getUpdatedPowerUp,
+	getPowerUp,
 	getMostTrophies,
 	getLeastTrophies,
 	getPowerLevel,

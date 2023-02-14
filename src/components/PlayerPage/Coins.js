@@ -5,13 +5,13 @@ const Coins = (context) => {
 
 	return <div>
 		<img
-			className="coins"
+			className="coin"
 			src="images/coins.jpeg"
 			alt="fs"
 			height="30px"
 			width="30px"
 		/>
-		<label className="coin">{character.coins}</label>
+		<label className="coinValue">{character.coins}</label>
 	</div>;
 };
 

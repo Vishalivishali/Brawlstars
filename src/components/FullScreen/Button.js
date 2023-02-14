@@ -11,7 +11,7 @@ const types = {
 	'By Rarity Descending': (context) => getSorting.getByRarityDescending(context),
 	'Closest Rank': (context) => getSorting.getClosestRank(context),
 };
-const Buttons = (context) => {
+const Button = (context) => {
 	const { state, setState,
 		state: { indexValue, buttonName }, config: { sorting }} = context;
 
@@ -22,8 +22,10 @@ const Buttons = (context) => {
 				indexValue: indexValue + 1,
 				buttonName: sorting[indexValue % 6],
 				brawlers: types[buttonName](context) }) }
-		>{buttonName}</button>
+		>
+			{buttonName}
+		</button>
 	);
 };
 
-export default Buttons;
+export default Button;

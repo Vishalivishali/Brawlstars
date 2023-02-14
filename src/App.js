@@ -1,7 +1,8 @@
 /* eslint-disable no-magic-numbers */
+import './App.scss';
+
 import { rndBetween } from '@laufire/utils/lib';
 import { React, useState } from 'react';
-import './App.scss';
 
 import FullScreen from './components/FullScreen/FullScreen';
 import getSorting from './services/getSorting';
@@ -28,7 +29,7 @@ const App = (context) => {
 	const extendedContext = { ...{ ...context, state, setState }};
 	const { once } = context;
 
-	once(() => getSorting.getUpdatedPowerUp(extendedContext));
+	once(() => getSorting.getPowerUp(extendedContext));
 
 	return <div className="App">
 		<FullScreen { ...extendedContext }/>

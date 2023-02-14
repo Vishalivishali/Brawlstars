@@ -1,7 +1,7 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react';
-import Coins from './Coins';
 import PowerPoints from './PowerPoints';
+import Coins from './Coins';
 
 const Rectangle = (context) =>
 

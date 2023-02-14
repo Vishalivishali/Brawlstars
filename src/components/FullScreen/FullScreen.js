@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Buttons from '../Header/Button';
-import Brawlstars from '../Header/Brawlstars';
+import Header from './Header';
+import Button from './Button';
+import Brawlstars from './Brawlstars';
 
 const FullScreen = (context) =>
 	<div>
 		<Header { ...context }/>
-		<Buttons { ...context }/>
+		<Button { ...context }/>
 		<Brawlstars { ...context }/>
 	</div>;
 

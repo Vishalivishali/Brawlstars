@@ -1,5 +1,5 @@
 import React from 'react';
-import Box from '../Footer/Box';
+import Box from '../PlayerPage/Box';
 
 const Brawlstars = (context) => {
 	const { state: { characters }} = context;

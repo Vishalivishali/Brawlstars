@@ -5,12 +5,13 @@ const PowerPoints = (context) => {
 
 	return <div>
 		<img
-			className="powerPoints"
+			className="powerPoint"
 			src="images/powerPoint.jpeg"
 			alt="fs"
 			height="30px"
 			width="30px"
-		/> <label className="powerPoint">{character.powerPoints}</label>
+		/>
+		<label className="powerPointValue">{character.powerPoints}</label>
 	</div>;
 };
 
